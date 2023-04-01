@@ -1,0 +1,238 @@
+.banner {
+    background-image: url(src/house_bg.png);
+    height: 920px;
+}
+.banner a {
+    color: white;
+}
+.logo {
+    background-color: white;
+    width: 242px;
+    height: 130px;
+}
+.logo h3 {
+    color: #6B3180;
+}
+.logo p {
+    color: black;
+}
+.banner {
+    color: white;
+}
+.but2 a {
+    font-weight: 500;
+    line-height: 2;
+    background: #6B3180;
+    border: 3px solid #845993;
+    border-radius: 25px;
+    width: 246px;
+    height: 50px;
+    color: white;
+}
+.but1 a {
+    font-weight: 500;
+    line-height: 0.5;
+    color: white;
+    width: 321px;
+    height: 50px;
+    background: #6B3180;
+    border: 3px solid #845993;
+    border-radius: 25px
+}
+.row img{
+    display: block;
+    margin: 0 auto;
+}
+.info h3 {
+    color: #6B3180;
+}
+.second_info h3 {
+    color: #6B3180;
+}
+.row {
+    margin: 0;
+}
+.pictures {
+    display: flex;
+}
+.btn_hover:hover {
+    background:#845993;
+    border: 3px solid #b37bc7;
+    color: white;
+}
+.btn_hover:active {
+    background:#845993;
+    border: 3px solid #b37bc7;
+}
+.banner span {
+    font-size: 12px;
+
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #6B3180;
+    border-color: #6B3180;
+}
+.icon_block.col-lg-3.mt-5 {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    width: 274px;
+    height: 274px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.icon_block img {
+    margin-top: 20px;
+}
+@media screen and (max-width:1000px) {
+    .banner_image .row:first-child {
+        background: #00000050;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .logo.col-lg-2.text-center.pt-4 {
+        width: 100%;
+    }
+}
+.hide {
+    opacity: 0;
+}
+img:hover .hide {
+    opacity: 1;
+}
+
+
+
+.picture_block {
+    display: flex;
+    justify-content: center;
+}
+.picture_block:hover {
+    -webkit-filter: brightness(50%);
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
+    -ms-transition: all 0.8s ease;
+    transition: all 0.8s ease;
+}
+.picture_block .hide {
+    opacity: 0;
+    transition: opacity .8s;
+  }
+  .picture_block:hover .hide {
+    opacity: 1;
+  }
+  .hide.position-absolute {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+    align-items: center;
+}
+.hide p {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 150%;
+    color: #fff;
+}
+.card-title {
+    color: #6B3180;
+}
+.card span {
+    color: #6B3180;
+}
+.btn-card {
+    font-weight: 500;
+    line-height: 0.5;
+    color: white;
+    margin-top: 10px;
+    padding: 20px 40px 20px 40px;
+    background: #6B3180;
+    border: 3px solid #845993;
+    border-radius: 25px
+}
+.btn-view {
+    color: #845993;
+    background: #FFFFFF;
+    padding: 10px 40px 10px 40px;
+    border: 3px solid #845993;
+    border-radius: 25px;
+    display: flex;
+}
+.map {
+    margin-top: 100px;
+}
+.adress {
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    margin-top: 500px;
+}
+.map {
+    display: flex;
+    justify-content: center;
+}
+.footer {
+    background-image: url(src/bg.png);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sub-btn {
+    background: #FFFFFF;
+    border: 3px solid #DEC0E9;
+    border-radius: 25px; 
+    font-weight: 500;
+    color:#6B3180;
+    padding: 10px 40px 10px 40px;
+    margin-top: 30px;
+}
+.form_blocks {
+    display: flex;
+    justify-content: center;
+}
+.form_text {
+    margin-top: 30px;
+}
+.form_block {
+    margin: 20px;
+}
+
+@media screen and (max-width:1000px) {
+    .adress {
+        flex-direction: column;
+    }
+    .hide.position-absolute {
+        height: 400px;
+    }
+    .w-50 {
+        width: 100% !important;
+    }
+}
+
+input[type="text"], input[type="tel"] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #BDBDBD;
+    padding: 0 50px;
+    font-size: 18px;
+    text-align: center;
+}
+@media screen and (max-width:1000px) {
+    .adress {
+        height: 70%;
+        background-color: white;
+        width: 100%;
+        position: absolute;
+        display: flex;
+        margin-top: 50%;
+    }
+    .map {
+        height: 1000px;
+    }
+}
